@@ -64,23 +64,23 @@ export default function Container({ City, setCity }) {
                             Navsari<span className="badge">{Temp.Navsari} °C</span>
                         </button>
 
-                        <button type="button" id="Surat" onClick={UpdateCity} className="btn opacity-75 text-white mx-2" style={{backgroundColor:'#2D2C54'}} data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        <button type="button" id="Surat" onClick={UpdateCity} className="my-2 btn opacity-75 text-white mx-2" style={{backgroundColor:'#2D2C54'}} data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                             Surat <span className="badge">{Temp.Surat} °C</span>
                         </button>
 
-                        <button type="button" id="Ahmedabad" onClick={UpdateCity}  style={{backgroundColor:'#2D2C54'}}className=" my-2 btn opacity-75 text-white mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        <button type="button" id="Ahmedabad" onClick={UpdateCity}  style={{backgroundColor:'#2D2C54'}}className="my-2 btn opacity-75 text-white mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                             Ahmedabad <span className="badge">{Temp.Ahmedabad} °C</span>
                         </button>
 
-                        <button type="button" id="Baroda" onClick={UpdateCity} style={{backgroundColor:'#2D2C54'}} className="btn opacity-75 text-white mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        <button type="button" id="Baroda" onClick={UpdateCity} style={{backgroundColor:'#2D2C54'}} className="my-2 btn opacity-75 text-white mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                             Baroda <span className="badge">{Temp.Baroda} °C</span>
                         </button>
 
-                        <button type="button" id="Mumbai" onClick={UpdateCity} style={{backgroundColor:'#2D2C54'}} className=" my-2 btn opacity-75 text-white mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        <button type="button" id="Mumbai" onClick={UpdateCity} style={{backgroundColor:'#2D2C54'}} className="my-2 btn opacity-75 text-white mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                             Mumbai <span className="badge">{Temp.Mumbai} °C</span>
                         </button>
 
-                        <button type="button" id="Bangalore" onClick={UpdateCity} style={{backgroundColor:'#2D2C54'}} className="btn opacity-75 text-white mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        <button type="button" id="Bangalore" onClick={UpdateCity} style={{backgroundColor:'#2D2C54'}} className="my-2 btn opacity-75 text-white mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                             Bangalore <span className="badge">{Temp.Bangalore} °C</span>
                         </button>
 
