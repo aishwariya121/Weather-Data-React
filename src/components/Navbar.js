@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-import WeatherData from './WeatherData'
+import React from 'react'
+
 
 export default function Navbar({setCity}) {
 

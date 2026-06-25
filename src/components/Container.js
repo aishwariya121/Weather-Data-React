@@ -58,7 +58,7 @@ export default function Container({ City, setCity }) {
         <>
             <div>
                 <div className="card text-bg-dark">
-                    <img src="./bg-cloud.webp" className="card-img" alt="..." style={{ height: '400px', objectFit: 'cover' }} />
+                    <img src={`${process.env.PUBLIC_URL}/bg-Cloud.webp`} className="card-img" alt="..." style={{ height: '400px', objectFit: 'cover' }} />
                     <div className="card-img-overlay">
                         <button type="button" id="Navsari" onClick={UpdateCity} className="my-2 btn  opacity-75 text-white mx-2" style={{backgroundColor:'#2D2C54'}} data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                             Navsari<span className="badge">{Temp.Navsari} °C</span>

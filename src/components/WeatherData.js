@@ -1,19 +1,12 @@
 import React, { useState, useEffect } from 'react'
-import Container from './Container'
+
 
 
 export default function WeatherData(props) {
 
-    let forecastData = [];
     const [WeatherData, setWeatherData] = useState(null);
     const [startIndex, setStartIndex] = useState(0);
     const [openHour, setOpenHour] = useState(null);
-
-    useEffect(() => {
-        if (props.City) {
-            GetData();
-        }
-    }, [props.City]);
 
     useEffect(() => {
         if (WeatherData?.forecast?.forecastday?.[0]?.hour) {
@@ -77,6 +70,13 @@ export default function WeatherData(props) {
         });
     };
 
+
+ useEffect(() => {
+    if (props.City) {
+        GetData();
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [props.City]);
 
     return (
         <>
