@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-import WeatherData from './WeatherData'
+import React from 'react'
+
 
 export default function Navbar({setCity}) {
 
@@ -15,7 +15,8 @@ export default function Navbar({setCity}) {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid text-white" style={{backgroundColor:'#2D2C54'}}>
     <a className="navbar-brand text-white" href="/">
-        <img  src="./icons8-sun-94.png" alt="weather" style={{width : '25px', height:'25px'}}></img>Weather Today</a>
+    
+        <img  src={`${process.env.PUBLIC_URL}/icons8-sun-94.png`} alt="weather" style={{width : '25px', height:'25px'}}></img>Weather Today</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
