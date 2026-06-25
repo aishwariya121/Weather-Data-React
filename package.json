@@ -2,7 +2,7 @@
   "name": "weatherdata",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aishwariya121.github.io/Weather-Data",
+  "homepage": "https://aishwariya121.github.io/Weather-Data-React",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
